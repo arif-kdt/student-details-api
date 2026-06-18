@@ -27,7 +27,6 @@ def add_student(request):
 
 
 def edit_student(request, id):
-
     student = get_object_or_404(Student, id=id)
 
     if request.method == 'POST':
